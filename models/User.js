@@ -26,8 +26,8 @@ const UserSchema = new mongoose.Schema({
     select: false,
   },
 
-  resetPasswordToken: String,
-  resetPasswordExpire: Date,
+  // resetPasswordToken: String,
+  // resetPasswordExpire: Date,
 });
 
 // ? pre-save post-save hashing using mongoose

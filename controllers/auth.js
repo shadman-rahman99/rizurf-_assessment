@@ -50,14 +50,14 @@ exports.login = async (req, res, next) => {
     });
   }
 };
+//! Future Work
+// exports.forgotpassword = (req, res, next) => {
+//   res.send('Forgot Password Route');
+// };
 
-exports.forgotpassword = (req, res, next) => {
-  res.send('Forgot Password Route');
-};
-
-exports.resetpassword = (req, res, next) => {
-  res.send('Reset Password Route');
-};
+// exports.resetpassword = (req, res, next) => {
+//   res.send('Reset Password Route');
+// };
 
 const sendToken = (user, statusCode, res) => {
   const token = user.getSignToken();

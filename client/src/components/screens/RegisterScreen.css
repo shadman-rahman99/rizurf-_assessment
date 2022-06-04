@@ -1,0 +1,25 @@
+.register-screen {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-screen__form {
+  padding: 1.5rem;
+  width: 380px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  background: #fff;
+}
+
+.register-screen__title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.register-screen__subtext {
+  display: block;
+  font-size: 0.7rem;
+  margin: 0.5rem 0;
+}
